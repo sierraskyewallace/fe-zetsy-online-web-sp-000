@@ -78,3 +78,8 @@ header a:hover {
 #press img:hover {
 	border: 5px rgb(111,127,122) solid;
 }
+
+a:-webkit-any-link {
+    color: webkit-link;
+    cursor: pointer;
+}
