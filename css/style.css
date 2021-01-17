@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
     background: #fff;
     padding: 0 45px 20px;
-    color: #1783bb
+    
 }
 
 h1 {
@@ -77,9 +77,4 @@ header a:hover {
 
 #press img:hover {
 	border: 5px rgb(111,127,122) solid;
-}
-
-a:-webkit-any-link {
-    color: webkit-link;
-    cursor: pointer;
 }
