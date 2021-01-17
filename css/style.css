@@ -3,14 +3,12 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-@font-face {
+font-face {
 	font-family: 'Baskerville';
 	src: url(../fonts/Baskerville.ttc);
 }
 
-/*////////// Global Styles //////////*/
-
-@@ -17,4 +20,68 @@ body {
+body {
 	padding: 0 45px 20px;
 }
 
