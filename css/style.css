@@ -61,7 +61,12 @@ header a:hover {
 #featured a:hover {
 	text-decoration: underline;
 }
-
+rapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 45px 20px;
+}
 #press {
 	margin-bottom: 20px;
 }
