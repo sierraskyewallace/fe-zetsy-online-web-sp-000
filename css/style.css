@@ -3,6 +3,10 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+font-face {
+  font-family: 'Baskerville';
+  src: url(../fonts/Baskerville.ttc);
+}
 
 h1 {
   padding-bottom: 20px;
