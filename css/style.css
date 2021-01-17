@@ -18,42 +18,55 @@ body {
 	padding: 0 45px 20px;
 }
 
-header {
-  display: block;
-}
-
 h1 {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+	padding-bottom: 10px;
 	margin: 0 0 5px;
-}
-
-h1 a{
-	color: #98ada6;
-  font-size: 2.5em;
-  font-family: 'Baskerville', serif;
-  text-decoration: none;
-}
-
-h1 a:hover{
-  color: #6f7f7a;
-
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
 }
 
 h2 {
-	color: #6f7f7a;
+	color: rgb(111,127,122);
 	font-size: 2em;
 }
 
-p {
+p  {
 	color: #555;
 	font-size: 1em;
+	margin: 0 0 20px 0;
 }
 
-#largeimage {
-	border: 5px #98ada6 solid;
+.small {
+	font-size: 0.8em;
 }
 
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+#press {
+	margin-bottom: 20px;
+}
 
 #press img {
 	border: 5px #ccc solid;
@@ -62,9 +75,4 @@ p {
 
 #press img:hover {
 	border: 5px rgb(111,127,122) solid;
-}
-
-footer {
-	text-align: right;
-	font-size: 0.8em
 }
